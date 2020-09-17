@@ -1,14 +1,17 @@
 Package: xlreports
-Title: What the Package Does (One Line, Title Case)
+Title: Simple Wrappers for write_xlsx
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Matthew",
            family = "Harris",
            role = c("aut", "cre"),
            email = "noreply")
-Description: What the package does (one paragraph).
+Description: Simple wrappers that make it easy to export, name, and timestamp 
+analyzed data frames to excel. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat
