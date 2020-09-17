@@ -19,3 +19,5 @@ Suggests:
 Imports: 
     writexl,
     glue
+URL: https://github.com/mhdemo/xlreports
+BugReports: https://github.com/mhdemo/xlreports/issues
