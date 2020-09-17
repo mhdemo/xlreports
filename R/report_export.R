@@ -10,10 +10,10 @@
 #'
 #' @return none
 #' @export
+#' @examples
 #' \dontrun{
 #' report_export(list(mtcars, airquality), export_dest = "new_reports", fname = "curr_report")
 #' }
-#'
 
 report_export <- function(tabs, export_dest = "report_exports",
                           fname = "export", export_time = TRUE) {
