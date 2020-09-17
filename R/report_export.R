@@ -1,13 +1,18 @@
 #' Export list of data frames to separate excel tabs
 #'
 #' Supply list of data frames and export to an excel file
-#' in an existing or new directory with optional time stamp
+#' in an existing or new directory with optional timestamp
 #'
+#' @param tabs data frames to export
+#' @param export_dest export destination
+#' @param fname export file name
+#' @param export_time logical. If true the current time is added to the file name
 #'
-#'
-#'
-#'
-#'
+#' @return none
+#' @export
+#' \dontrun{
+#' report_export(list(mtcars, airquality), export_dest = "new_reports", fname = "curr_report")
+#' }
 #'
 
 report_export <- function(tabs, export_dest = "report_exports",
