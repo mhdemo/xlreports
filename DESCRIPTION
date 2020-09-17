@@ -5,9 +5,8 @@ Authors@R:
     person(given = "Matthew",
            family = "Harris",
            role = c("aut", "cre"),
-           email = "noreply")
-Description: Simple wrappers that make it easy to export, name, and timestamp 
-analyzed data frames to excel. 
+           email = "noreply@email.com")
+Description: Simple wrappers that make it easy to export, name, and timestamp analyzed data frames to excel.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
