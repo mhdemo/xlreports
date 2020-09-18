@@ -25,7 +25,7 @@ report_export <- function(tabs, export_dest = "report_exports",
   if(export_time) {
     writexl::write_xlsx(x = tabs,
                         path = glue::glue("{getwd()}/{export_dest}/{fname}_\\
-                                          {sub(' ', '_', format(Sys.time(), '%Y-%m_%H.%M'))}.xlsx"),
+                                          {format(Sys.time(), '%Y-%m_%H.%M')}.xlsx"),
                         format_headers = FALSE)
   } else {
     writexl::write_xlsx(x = tabs,
